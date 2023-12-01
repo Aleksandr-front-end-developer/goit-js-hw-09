@@ -21,7 +21,9 @@ const options = {
 			Notiflix.Notify.failure('Please choose a date in the future', {
 				timeout: 3000,
 			});
+
 			btn.disabled = true
+
 		} else {
 			btn.disabled = false
 
