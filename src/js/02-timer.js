@@ -25,6 +25,7 @@ const options = {
 			btn.disabled = false
 
 			btn.addEventListener('click', () => {
+				btn.disabled = true
 				const currentDate = new Date();
 				let difference = targetDate - currentDate;
 
